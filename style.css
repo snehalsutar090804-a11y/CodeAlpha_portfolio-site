@@ -1,0 +1,196 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #fff0f6, #f3e8ff);
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 60px;
+  background: rgba(255, 182, 193, 0.3);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #c2185b;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #c2185b;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-box {
+  background: rgba(255,255,255,0.6);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(12px);
+}
+
+.hero h1 {
+  font-size: 45px;
+  color: #c2185b;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: #ff69b4;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: #ff4fa3;
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid #ff69b4;
+  color: #ff69b4;
+}
+
+/* Sections */
+.section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 30px;
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(255,255,255,0.4);
+  margin: 20px;
+  border-radius: 15px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-container span {
+  background: #ffb6c1;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Projects */
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 260px;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: #ffe4f2;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: auto;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  background: #ff69b4;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4fa3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255,182,193,0.4);
+  margin-top: 40px;
+}
